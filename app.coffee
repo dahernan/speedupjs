@@ -23,7 +23,7 @@ app.configure('production', () ->
 )
 
 app.get('/', (req, res) ->
-	res.json({ ok: 'ok' })
+	res.json({ name: 'david' , count: Math.floor(Math.random()*11) })
 )
 
 app.listen(3000)

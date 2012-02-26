@@ -1,12 +1,19 @@
 ;(function($) {
   var app = $.sammy(function() {
-
     this.get('#/', function() {
-      $('#main').text('<h1>Sammy running!!!</h1>');
+	    this.load('/').then(function(data){
+			dust.render("template1", JSON.parse(data), function(err, out) {
+		    	$('#main').html(out);
+			});
+		});
     });
 
     this.get('#/test', function() {
-      $('#main').text('Hello World');
+		$.getJSON('/', function(data) {
+			dust.render("template2", data, function(err, out) {
+		    	$('#main').html(out);
+			});
+		});
     });
 
   });
