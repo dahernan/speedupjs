@@ -1,0 +1,24 @@
+{
+  "name": "speedupjs",
+  "description": "Template project for rest+client side templates",
+  "version": "1.0.0",
+  "author": "David Hernandez <dahernan@gmail.com>",
+  "dependencies": {
+    "express": "2.5.x",
+    "socket.io": "0.8.x",
+    "redis": "0.7.x",
+    "dust": "3.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "coffee": "*",
+    "should": "*",
+  },
+  "keywords": ["framework", "template", "web", "rest", "restful"],
+  "repository": "git://github.com/dahernan/speedupjs",
+  "main": "index",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": { "node": ">= 0.4.1 < 0.7.0" }
+}
