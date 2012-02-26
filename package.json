@@ -13,6 +13,7 @@
     "mocha": "*",
     "coffee": "*",
     "should": "*",
+    "dusty": "*"
   },
   "keywords": ["framework", "template", "web", "rest", "restful"],
   "repository": "git://github.com/dahernan/speedupjs",
