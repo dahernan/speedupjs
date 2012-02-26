@@ -1,0 +1,2 @@
+(function(){dust.register("template1",body_0);function body_0(chk,ctx){return chk.write("<p>Hello ").reference(ctx.get("name"),ctx,"h").write("! You have ").reference(ctx.get("count"),ctx,"h").write(" new messages.</p>");}return body_0;})();
+(function(){dust.register("template2",body_0);function body_0(chk,ctx){return chk.write("<p>My second hellooooo ").reference(ctx.get("name"),ctx,"h").write("! You have ").reference(ctx.get("count"),ctx,"h").write(" new messages.</p>");}return body_0;})();
