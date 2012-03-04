@@ -1,3 +1,3 @@
-Minimal application for templating.
+Minimal application as a skel for new projects, with client side templating and light Rest Json Server.
 
-With: Express, Socket.io, Redis client, Sammy, Dustjs, Bootstrap
+Out of the box: Express, Socket.io, Redis client, Sammyjs, Dustjs, Twitter Bootstrap
